@@ -1,0 +1,21 @@
+type,cohort,estimand,expected_OR
+cohort,HRS,Any limitation vs Independent,1.201205
+cohort,ELSA,Any limitation vs Independent,1.089292
+cohort,SHARE,Any limitation vs Independent,1.158011
+cohort,CHARLS,Any limitation vs Independent,1.170264
+cohort,HRS,Mild vs Independent,1.139065
+cohort,ELSA,Mild vs Independent,1.006657
+cohort,SHARE,Mild vs Independent,1.076347
+cohort,CHARLS,Mild vs Independent,1.128796
+cohort,HRS,Severe vs Independent,1.308629
+cohort,ELSA,Severe vs Independent,1.219375
+cohort,SHARE,Severe vs Independent,1.317983
+cohort,CHARLS,Severe vs Independent,1.224258
+cohort,HRS,Severe vs Mild,1.167669
+cohort,ELSA,Severe vs Mild,1.236941
+cohort,SHARE,Severe vs Mild,1.227672
+cohort,CHARLS,Severe vs Mild,1.082118
+pooled,ALL,Any limitation vs Independent,1.159095
+pooled,ALL,Mild vs Independent,1.090428
+pooled,ALL,Severe vs Independent,1.270281
+pooled,ALL,Severe vs Mild,1.172353
