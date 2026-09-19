@@ -1,0 +1,46 @@
+file,variable,required,description
+PEF exposure,id,yes,Participant identifier
+PEF exposure,pef_1,yes,Peak expiratory flow at first designated exposure assessment
+PEF exposure,age_1,yes,Age at first PEF assessment
+PEF exposure,sex_1,yes,Sex at first PEF assessment
+PEF exposure,height_1,yes,Height at first PEF assessment using the cohort-harmonized unit
+PEF exposure,pef_2,yes,Peak expiratory flow at second designated exposure assessment
+PEF exposure,age_2,yes,Age at second PEF assessment
+PEF exposure,sex_2,yes,Sex at second PEF assessment
+PEF exposure,height_2,yes,Height at second PEF assessment using the same unit as height_1
+Functional intervals,id,yes,Participant identifier
+Functional intervals,interval_f,yes,Analysis interval indicator treated as a factor
+Functional intervals,destination,yes,Independent; Mild limitation; Severe limitation; or missing if next state unobserved
+Functional intervals,age,yes,Age at interval origin/index
+Functional intervals,sex,yes,Sex
+Functional intervals,height,yes,Height used in common-core adjustment
+Functional intervals,bmi,yes,Body mass index
+Functional intervals,education,yes,Cohort-harmonized education variable; preserve original harmonized model class
+Functional intervals,observed_next,no,Indicator that next-wave functional destination is observed; derived from destination if absent
+Functional intervals,smoking,no,Current smoking variable for sensitivity analyses
+Functional intervals,current_smoking,no,Alias for current smoking
+Functional intervals,ever_smoking,no,Ever-smoking variable if available
+Functional intervals,lung_disease,no,Chronic lung disease covariate
+Functional intervals,diabetes,no,Diabetes covariate
+Functional intervals,hypertension,no,Hypertension covariate
+Functional intervals,heart_disease,no,Heart disease covariate
+Functional intervals,stroke,no,Stroke covariate
+Functional intervals,cancer,no,Cancer covariate
+Functional intervals,depression,no,Depressive-symptom or depression covariate used in the harmonized sensitivity model
+Functional intervals,adl_iadl_t0,no,Total ADL/IADL limitation count at interval origin for strict deterioration sensitivity
+Functional intervals,adl_iadl_t1,no,Total ADL/IADL limitation count at interval destination for strict deterioration sensitivity
+Strict >=2 sensitivity,id,yes,Participant identifier
+Strict >=2 sensitivity,track,yes,Exposure-window/track identifier; required for HRS and SHARE
+Strict >=2 sensitivity,z1,yes,Residual-z PEF at the first exposure assessment for the matched track
+Strict >=2 sensitivity,z2,yes,Residual-z PEF at the second exposure assessment for the matched track
+Strict >=2 sensitivity,baseline_adl_count,yes,ADL limitation count at interval origin
+Strict >=2 sensitivity,baseline_iadl_count,yes,IADL limitation count at interval origin
+Strict >=2 sensitivity,adl_count,yes,ADL limitation count at interval destination
+Strict >=2 sensitivity,iadl_count,yes,IADL limitation count at interval destination
+Strict >=2 sensitivity,age,recommended,Age covariate used in the strict-outcome model
+Strict >=2 sensitivity,sex,recommended,Sex covariate used in the strict-outcome model
+Strict >=2 sensitivity,height,recommended,Height covariate used in the strict-outcome model
+Strict >=2 sensitivity,bmi,recommended,BMI covariate used in the strict-outcome model
+Strict >=2 sensitivity,education,recommended,Education covariate; preserve cohort-harmonized model class
+Strict >=2 sensitivity,interval_f,recommended,Analysis interval/window covariate
+Strict >=2 sensitivity,include_worsening_only,no,Optional logical inclusion indicator retained from endpoint harmonization

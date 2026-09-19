@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying manuscript and this software release."
+title: "Public analysis code for cumulative low peak expiratory flow burden and subsequent functional decline"
+type: software
+authors:
+  - family-names: Jiang
+    given-names: Wei
+    affiliation: "Anhui University of Chinese Medicine, Hefei, Anhui Province, China"
+  - family-names: Dai
+    given-names: Xiaohua
+    affiliation: "The First Affiliated Hospital of Anhui University of Chinese Medicine, Hefei, Anhui Province, China"
+version: 1.0.0
+date-released: 2026-09-19
+license: MIT
+keywords:
+  - peak expiratory flow
+  - functional independence
+  - ageing
+  - longitudinal cohort
+  - reproducible research
+abstract: >-
+  Public code implementing the final four-cohort analysis of cumulative low
+  peak expiratory flow burden, subsequent loss of functional independence,
+  destination severity, random-effects meta-analysis, and key sensitivity
+  analyses.
